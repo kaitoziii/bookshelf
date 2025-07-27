@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Program Buku dengan JS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Program Buku</h1>
+
+  <div class="container">
+    <!-- Form Tambah Buku -->
+    <form id="book-form">
+      <h2 id="form-title">Tambah Buku Baru</h2>
+      <input type="hidden" id="book-id">
+      <input type="text" id="title" placeholder="Judul Buku" required>
+      <input type="text" id="author" placeholder="Penulis" required>
+      <input type="number" id="year" placeholder="Tahun" required>
+      <label>
+        <input type="checkbox" id="isComplete"> Selesai Dibaca
+      </label>
+      <button type="submit" id="submit-button">Tambah Buku</button>
+    </form>
+
+    <!-- Rak Buku -->
+    <div class="rak-container">
+      <h2>Rak Belum Selesai Dibaca</h2>
+      <div id="incomplete-bookshelf" class="rak"></div>
+
+      <h2>Rak Selesai Dibaca</h2>
+      <div id="complete-bookshelf" class="rak"></div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
