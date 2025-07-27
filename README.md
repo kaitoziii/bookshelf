@@ -1,6 +1,3 @@
-Tentu, ini README baru yang lebih santai dan informatif, serta mengikuti ketentuan yang kamu berikan:
-
-Koleksi Bukuku - Aplikasi Rak Buku Sederhana
 Halo! Selamat datang di aplikasi rak buku sederhana ini. Proyek ini dibuat untuk membantu kamu mengelola koleksi buku kesayanganmu dengan mudah. Dengan aplikasi ini, kamu bisa mencatat buku apa saja yang sudah atau belum kamu baca.
 
 Fitur-Fitur Andalan:
